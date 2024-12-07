@@ -48,7 +48,10 @@ processResources {
     inputs.property 'version', project.version
 
     filesMatching('META-INF/mods.toml') {
-        expand version: project.version
+        expand version: project.version,
+        "ftblibraryversion": project.ftb_library_version,
+        "ftbteamsversion": project.ftb_teams_version,
+        "ftbchunksversion": project.ftb_chunks_version
     }
 }
 

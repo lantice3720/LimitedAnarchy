@@ -11,7 +11,7 @@ authors = "Me!"
 description = '''
 This is an example description! Tell everyone what your mod is about!
 '''
-#logoFile = ""
+logoFile = "icon.png"
 
 [[dependencies.limitedanarchy]]
 modId = "forge"
@@ -31,5 +31,27 @@ side = "BOTH"
 modId = "architectury"
 mandatory = true
 versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"
+
+
+[[dependencies.limitedanarchy]]
+modId = "ftblibrary"
+mandatory = true
+versionRange = "[${ftblibraryversion},)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.limitedanarchy]]
+modId = "ftbteams"
+mandatory = true
+versionRange = "[${ftbteamsversion},)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.limitedanarchy]]
+modId = "ftbchunks"
+mandatory = true
+versionRange = "[${ftbchunksversion},)"
 ordering = "AFTER"
 side = "BOTH"
