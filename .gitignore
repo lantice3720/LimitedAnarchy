@@ -1,0 +1,10 @@
+/forge/run/*
+!/forge/run/config/
+/forge/build/
+/forge/.gradle/
+/fabric/run/*
+!/fabric/run/config/
+/fabric/build/
+/fabric/.gradle/
+/.gradle/
+/.idea/

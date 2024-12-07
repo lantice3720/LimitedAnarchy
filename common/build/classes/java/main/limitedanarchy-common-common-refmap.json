@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "kr/lanthanide/mixin/MixinTest": {
+      "init()V": "Lnet/minecraft/class_442;method_25426()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "kr/lanthanide/mixin/MixinTest": {
+        "init()V": "Lnet/minecraft/class_442;method_25426()V"
+      }
+    }
+  }
+}
